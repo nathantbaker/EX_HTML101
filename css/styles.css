@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	color: #4b4b4b;
+	font-family: verdana;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	background-color: DarkCyan;
+}
+
+#wrapper {
+	background-color: white;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+	min-width: 700px;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	padding: 0 40px;
+}
+
+h1, h2 {
+	color: #444;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+	padding: 50px 0 30px 0;
+}
+
+nav {
+	text-align: center;
+	background-color: grey;
+	padding: 20px;
+}
+
+article, footer, main {
+}
+
+figcaption {
+	padding: 10px;
+}
+
+footer {
+	clear: left;
+	background-color: Gainsboro;
+	text-align: center;
+}
+
+#hero p {
+	padding: 10px;
+	top: 300px;
+	left: 55%;
+	position: absolute;
+	line-height: 25px;
+	width: 350px;
+	font-size: 1.2em;
+	color: #fff;
+	border: solid;
+	text-transform: uppercase;
+}
+
+#hero img {
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	padding: 10px;
+}
+
+main {
+	width: 60%
+}
+
+aside {
+	width: 28%
+}
+
+main, aside {
+	float: left;
+	margin: 30px 3%;
+	font-size: .8em;
+}
+
+figure {
+	width: 400px;
+	max-width: 92%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0;
+}
+
+figure img {
+	max-width: 100%;
+}
+
+figcaption {
+	padding: 20px 10px;
+	background-color: Gainsboro;
+}
